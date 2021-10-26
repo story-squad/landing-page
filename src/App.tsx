@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { DashboardTemplate } from './components/templates';
+import { DashboardView } from './components/views';
 
 const App = (): React.ReactElement => {
   return (
@@ -8,7 +8,7 @@ const App = (): React.ReactElement => {
       <Switch>
         {/* Public Routes */}
         {/* Private Routes */}
-        <Route exact path="/" component={DashboardTemplate} />
+        <Route exact path="/" component={DashboardView} />
       </Switch>
     </div>
   );

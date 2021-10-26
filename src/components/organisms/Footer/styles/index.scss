@@ -1,0 +1,21 @@
+@import '../../../../styles/index.scss';
+@import './nameAndPencil.scss';
+
+footer#main-footer {
+  // Design
+  background-color: $brand-blue-6;
+  .main-footer-container {
+    // Layout
+    @include safe-zone();
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    // Typography
+    color: $white;
+    nav {
+      // Stretches the `nav` element!
+      flex-grow: 1;
+    }
+  }
+}
