@@ -1,5 +1,6 @@
 import React from 'react';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
+import { DashboardTemplate } from './components/templates';
 
 const App = (): React.ReactElement => {
   return (
@@ -7,8 +8,7 @@ const App = (): React.ReactElement => {
       <Switch>
         {/* Public Routes */}
         {/* Private Routes */}
-        {/* Fallback redirect to main app homepage! Change the 'to' property after setting up routes. */}
-        <Route path="/" component={() => <Redirect to="/homepage" />} />
+        <Route exact path="/" component={DashboardTemplate} />
       </Switch>
     </div>
   );
