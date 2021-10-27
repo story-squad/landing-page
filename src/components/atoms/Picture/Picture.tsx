@@ -5,7 +5,6 @@ import './styles/index.scss';
 export interface PictureProps {
   source: string;
   description: string;
-  rotation?: number;
   disablePreview?: boolean;
   containerProps?: React.HTMLProps<HTMLDivElement>;
 }
@@ -13,7 +12,6 @@ export interface PictureProps {
 export default function Picture({
   source,
   description,
-  rotation = 0,
   containerProps = {},
   disablePreview,
 }: PictureProps): React.ReactElement {
@@ -24,7 +22,6 @@ export default function Picture({
         'image',
         containerProps.className,
         !disablePreview && 'can-preview',
-        `rotate-${rotation}`,
       )}
     >
       <div

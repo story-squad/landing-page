@@ -15,7 +15,6 @@ export default function DashboardTemplate({
       <Header />
       <div id="dashboard-content">
         <div className="dashboard-content-container">
-          <DashboardErrorFallback />
           <ErrorBoundary fallback={DashboardErrorFallback}>
             {children}
           </ErrorBoundary>

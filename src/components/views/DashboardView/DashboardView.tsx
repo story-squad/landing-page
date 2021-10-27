@@ -3,5 +3,5 @@ import React from 'react';
 import { DashboardTemplate } from '../../templates';
 
 export default function DashboardView(): React.ReactElement {
-  return <DashboardTemplate>{/* Content */}</DashboardTemplate>;
+  return <DashboardTemplate>{/* Content */}.</DashboardTemplate>;
 }
