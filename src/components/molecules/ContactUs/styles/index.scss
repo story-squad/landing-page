@@ -10,11 +10,13 @@
     .contact-container {
       //layout
       @include safe-zone();
+      padding: 6rem 0rem;
       > h2 {
         color: $white;
         font-family: $boogaloo;
         font-size: 48px;
         line-height: 56px;
+        margin-bottom: 2rem;
       }
     }
   }

@@ -1,0 +1,21 @@
+@import '../../../../styles/index.scss';
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2rem;
+  .form-input {
+    .label {
+      color: $white;
+    }
+    flex-grow: 1;
+  }
+  .side-inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .button {
+    margin-left: auto;
+  }
+}

@@ -1,6 +1,5 @@
 import { classnames, ErrorBoundary } from '@story-squad/react-utils';
 import React from 'react';
-import { ContactUs } from '../../molecules';
 import { Footer, Header } from '../../organisms';
 import DashboardErrorFallback from './DashboardErrorFallback';
 import './styles/index.scss';
@@ -21,7 +20,7 @@ export default function DashboardTemplate({
           </ErrorBoundary>
         </div>
       </div>
-      <ContactUs />
+      {/* <ContactUs /> */}
       <Footer />
     </div>
   );
