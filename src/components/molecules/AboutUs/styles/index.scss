@@ -1,0 +1,14 @@
+@import '../../../../styles/index.scss';
+
+.about-content {
+  @include safe-zone();
+  h2 {
+    font-family: $boogaloo;
+    font-style: normal;
+    font-weight: normal;
+    //Change to REM
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 2rem;
+  }
+}
