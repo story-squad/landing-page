@@ -1,0 +1,40 @@
+@import '../../../../styles/index.scss';
+
+header.main-header-wrapper {
+  // Design
+  background-color: $brand-blue;
+
+  .main-header-container {
+    // Layout
+    @include safe-zone();
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    @include bp(tablet) {
+      .menu-toggle {
+        order: 3;
+      }
+    }
+
+    section#main-header {
+      flex-grow: 1;
+      // Layout
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+
+      h1 {
+        cursor: pointer;
+        padding: 2.6rem 0;
+
+        // Typography
+        color: $white;
+        font-family: $boogaloo;
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        user-select: none;
+      }
+    }
+  }
+}

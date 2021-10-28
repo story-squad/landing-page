@@ -1,0 +1,33 @@
+@import '../../../../styles/index.scss';
+
+.header-nav {
+  display: none;
+  @include bp(tablet) {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    li {
+      &:nth-last-child(1) {
+        margin-right: 0rem;
+      }
+      margin-right: 2rem;
+      a,
+      p {
+        cursor: pointer;
+        font-family: $lato;
+        color: $white;
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

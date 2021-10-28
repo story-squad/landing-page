@@ -1,0 +1,22 @@
+.image {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  overflow: hidden;
+  aspect-ratio: 1;
+
+  &.can-preview .image-inner {
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+    &:hover {
+      transition: all 0.15s ease-out;
+      transform: scale(1.05);
+    }
+  }
+  .image-inner {
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: top center;
+  }
+}
