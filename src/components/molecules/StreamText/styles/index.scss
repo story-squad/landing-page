@@ -1,0 +1,9 @@
+@import '../../../../styles/index.scss';
+
+.stream-content {
+  @include safe-zone();
+  h2 {
+    @include small-boogaloo();
+    margin-bottom: 2rem;
+  }
+}

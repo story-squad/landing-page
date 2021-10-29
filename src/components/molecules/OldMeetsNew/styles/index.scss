@@ -1,0 +1,16 @@
+@import '../../../../styles/index.scss';
+.content-wrapper {
+  @include safe-zone();
+  .old-meets-new-content {
+    margin: 0rem 5rem;
+    h2 {
+      font-family: $boogaloo;
+      font-style: normal;
+      font-weight: normal;
+      //Change to REM
+      font-size: 36px;
+      line-height: 46px;
+      margin-bottom: 2rem;
+    }
+  }
+}

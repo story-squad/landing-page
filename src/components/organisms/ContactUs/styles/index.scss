@@ -13,9 +13,7 @@
       padding: 6rem 0rem;
       > h2 {
         color: $white;
-        font-family: $boogaloo;
-        font-size: 48px;
-        line-height: 56px;
+        @include large-boogaloo();
         margin-bottom: 2rem;
       }
     }
