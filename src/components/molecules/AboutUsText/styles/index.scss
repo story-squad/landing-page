@@ -1,0 +1,10 @@
+@import '../../../../styles/index.scss';
+
+.about-content {
+  @include safe-zone();
+  h2 {
+    @include large-boogaloo;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+}
