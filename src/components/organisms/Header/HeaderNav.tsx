@@ -7,18 +7,9 @@ export default function HeaderNav(): React.ReactElement {
   return (
     <nav className="header-nav">
       <ul>
-        {headerNavItems.map(
-          ({ linkUrl, linkName, type, options, target }, i) => (
-            <HeaderMenuItems
-              target={target}
-              options={options}
-              key={i}
-              linkName={linkName}
-              linkUrl={linkUrl}
-              type={type}
-            />
-          ),
-        )}
+        {headerNavItems.map(({ linkUrl, linkName }, i) => (
+          <HeaderMenuItems key={i} linkName={linkName} linkUrl={linkUrl} />
+        ))}
       </ul>
     </nav>
   );
