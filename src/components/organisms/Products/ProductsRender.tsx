@@ -4,7 +4,7 @@ import './styles/index.scss';
 
 export default function RenderProducts(): React.ReactElement {
   return (
-    <div className="products-wrapper">
+    <div id="products" className="products-wrapper">
       <Products />
     </div>
   );

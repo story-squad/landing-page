@@ -4,10 +4,9 @@ import { Link } from 'react-router-dom';
 export default function NavItem({
   linkName,
   linkUrl,
-  key,
 }: NavItemProps): React.ReactElement {
   return (
-    <li key={key}>
+    <li>
       <Link to={linkUrl} target="_blank">
         {linkName}
       </Link>
@@ -18,5 +17,4 @@ export default function NavItem({
 interface NavItemProps {
   linkName: string;
   linkUrl: string;
-  key: number;
 }

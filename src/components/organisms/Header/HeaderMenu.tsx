@@ -16,19 +16,10 @@ export default function HeaderMenu(): React.ReactElement {
   return (
     <div className={classnames('header-menu', !menuIsOpen && 'collapsed')}>
       <nav>
-        <ul>
-          {headerNavItems.map(
-            ({ linkUrl, linkName, type, options, target }, i) => (
-              <HeaderMenuItems
-                target={target}
-                options={options}
-                key={i}
-                linkName={linkName}
-                linkUrl={linkUrl}
-                type={type}
-              />
-            ),
-          )}
+        <ul ref={clickRef}>
+          {headerNavItems.map(({ linkUrl, linkName }, i) => (
+            <HeaderMenuItems key={i} linkName={linkName} linkUrl={linkUrl} />
+          ))}
         </ul>
       </nav>
     </div>
