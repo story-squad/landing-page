@@ -1,6 +1,6 @@
 import { classnames, ErrorBoundary } from '@story-squad/react-utils';
 import React from 'react';
-import { Footer, Header } from '../../organisms';
+import { Footer, HeaderContainer } from '../../organisms';
 import DashboardErrorFallback from './DashboardErrorFallback';
 import './styles/index.scss';
 
@@ -12,7 +12,7 @@ export default function DashboardTemplate({
 }>): React.ReactElement {
   return (
     <div className={classnames('dashboard-template', className)}>
-      <Header />
+      <HeaderContainer />
       <div id="dashboard-content">
         <div className="dashboard-content-container">
           <ErrorBoundary fallback={DashboardErrorFallback}>

@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@hookform/error-message": "^2.0.0",
-    "@story-squad/react-utils": "^0.2.0",
-    "axios": "^0.21.0",
+    "@story-squad/react-utils": "^0.2.1",
+    "axios": "^0.21.4",
     "dotenv": "^8.2.0",
     "luxon": "^2.0.1",
     "node-sass": "^4.14.1",
