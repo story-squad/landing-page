@@ -1,5 +1,6 @@
 export * from './AboutUsText';
 export * from './CallToActionText';
+export * from './HeroText';
 export * from './HowAreWeDifferentText';
 export * from './Input';
 export * from './LastTimeText';

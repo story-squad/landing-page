@@ -1,0 +1,22 @@
+@import '../../../../styles/index.scss';
+
+.hero-content {
+  @include safe-zone;
+  position: relative;
+  display: flex;
+  padding: 6rem 2.5rem 0rem 2.5rem;
+  .hero-img {
+    max-height: 400px;
+  }
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+  > button {
+    text-transform: uppercase;
+  }
+}

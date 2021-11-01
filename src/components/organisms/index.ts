@@ -3,6 +3,7 @@ export * from './CallToAction';
 export * from './ContactUs';
 export * from './Footer';
 export * from './Header';
+export * from './Hero';
 export * from './HowAreWeDifferent';
 export * from './LastTime';
 export * from './OldMeetsNew';

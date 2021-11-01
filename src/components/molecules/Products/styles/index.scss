@@ -1,6 +1,9 @@
 @import '../../../../styles/index.scss';
 
 .product-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   h2 {
     @include small-boogaloo;
     text-transform: uppercase;

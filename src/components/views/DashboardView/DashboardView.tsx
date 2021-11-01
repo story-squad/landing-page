@@ -2,6 +2,7 @@ import React from 'react';
 import {
   AboutUs,
   CallToAction,
+  Hero,
   HowAreWeDifferent,
   LastTime,
   OldMeetsNew,
@@ -13,6 +14,7 @@ import { DashboardTemplate } from '../../templates';
 export default function DashboardView(): React.ReactElement {
   return (
     <DashboardTemplate>
+      <Hero />
       <Products />
       <CallToAction />
       <LastTime />
