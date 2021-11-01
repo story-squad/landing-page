@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaCaretDown } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 export default function HeaderMenuItems({
   linkName,
@@ -12,9 +11,9 @@ export default function HeaderMenuItems({
 }: HeaderMenuItemProps): React.ReactElement {
   return type === 'link' ? (
     <li key={key}>
-      <Link to={linkUrl} target={target}>
+      <a href={linkUrl} target={target && target}>
         {linkName}
-      </Link>
+      </a>
     </li>
   ) : (
     <li key={key}>

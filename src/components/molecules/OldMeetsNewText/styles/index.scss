@@ -1,0 +1,11 @@
+@import '../../../../styles/index.scss';
+.content-wrapper {
+  @include safe-zone();
+  .old-meets-new-content {
+    h2 {
+      @include small-boogaloo;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+    }
+  }
+}

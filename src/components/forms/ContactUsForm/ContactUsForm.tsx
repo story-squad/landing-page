@@ -2,7 +2,7 @@ import React from 'react';
 import { useFormContext } from 'react-hook-form';
 import { Button } from '../../atoms';
 import { Input } from '../../molecules';
-import './styles/fromContactStyles.scss';
+import './styles/index.scss';
 
 export default function ContactUsForm(): React.ReactElement {
   const { handleSubmit } = useFormContext();

@@ -1,5 +1,7 @@
 import React from 'react';
+import HeaderMenu from './HeaderMenu';
 import HeaderNav from './HeaderNav';
+import HeaderToggle from './HeaderToggle';
 import './styles/index.scss';
 
 export default function Header(): React.ReactElement {
@@ -10,7 +12,9 @@ export default function Header(): React.ReactElement {
           <h1>Story Squad</h1>
         </section>
         <HeaderNav />
+        <HeaderToggle />
       </div>
+      <HeaderMenu />
     </header>
   );
 }

@@ -1,0 +1,6 @@
+@import '../../../../styles/index.scss';
+
+.products-wrapper {
+  @include safe-zone;
+  padding: 6rem 2.5rem;
+}

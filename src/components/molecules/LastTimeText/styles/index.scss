@@ -1,0 +1,26 @@
+@import '../../../../styles/index.scss';
+
+.last-time-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  align-items: center;
+  @include bp($tablet) {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+  img {
+    width: 236px;
+  }
+  @include bp($large) {
+    width: 70%;
+  }
+  @include safe-zone;
+  h2 {
+    @include small-boogaloo;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+}

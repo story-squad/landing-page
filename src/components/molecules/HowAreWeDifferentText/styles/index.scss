@@ -1,0 +1,42 @@
+@import '../../../../styles/index.scss';
+
+.how-we-different-content {
+  @include safe-zone();
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  h2 {
+    @include large-boogaloo();
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    @include bp($large) {
+      width: 70%;
+    }
+    .item-with-icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      @include bp($tablet) {
+        flex-direction: row;
+        text-align: left;
+      }
+      img {
+        height: 70px;
+        width: 70px;
+      }
+      p {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

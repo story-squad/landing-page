@@ -1,0 +1,32 @@
+@import '../../../../styles/index.scss';
+
+.product-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  h2 {
+    @include small-boogaloo;
+    text-transform: uppercase;
+  }
+  .product-items {
+    display: flex;
+    flex-direction: column;
+    @include bp($tablet) {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    .hoax {
+      background-image: url('../../../../assets/img/Card/word-hoax-card.png');
+      @include product-item;
+    }
+    .clash {
+      background-image: url('../../../../assets/img/Card/clash-card.png');
+      @include product-item;
+    }
+    .rumble {
+      background-image: url('../../../../assets/img/Card/crumble-card.png');
+      @include product-item;
+    }
+  }
+}
