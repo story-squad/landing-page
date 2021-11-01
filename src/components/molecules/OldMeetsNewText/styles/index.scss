@@ -2,7 +2,6 @@
 .content-wrapper {
   @include safe-zone();
   .old-meets-new-content {
-    margin: 0rem 5rem;
     h2 {
       @include small-boogaloo;
       margin-bottom: 2rem;

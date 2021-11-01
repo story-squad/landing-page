@@ -4,7 +4,7 @@ import './styles/index.scss';
 
 export default function AboutUs(): React.ReactElement {
   return (
-    <div className="about-wrapper">
+    <div id="about-us" className="about-wrapper">
       <AboutUsText />
     </div>
   );

@@ -4,7 +4,7 @@ import './styles/index.scss';
 
 export default function OurMission(): React.ReactElement {
   return (
-    <div className="our-mission-wrapper">
+    <div id="mission" className="our-mission-wrapper">
       <OurMissionText />
     </div>
   );
