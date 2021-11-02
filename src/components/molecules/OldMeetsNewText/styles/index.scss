@@ -1,7 +1,14 @@
 @import '../../../../styles/index.scss';
 .content-wrapper {
   @include safe-zone();
+  padding: 6rem 2.5rem;
+
   .old-meets-new-content {
+    // TODO talk to Joanne aout this
+    // text-align: center;
+    // @include bp($tablet) {
+    //   text-align: left;
+    // }
     h2 {
       @include small-boogaloo;
       margin-bottom: 2rem;

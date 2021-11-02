@@ -7,10 +7,16 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 4rem;
+  padding: 0rem 2.5rem 0 2.5rem;
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 
-  h2 {
-    @include large-boogaloo;
-    text-transform: uppercase;
-    margin: 2rem 0rem;
+    h2 {
+      @include large-boogaloo;
+      text-transform: uppercase;
+    }
   }
 }

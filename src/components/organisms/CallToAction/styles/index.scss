@@ -1,6 +1,12 @@
 @import '../../../../styles/index.scss';
 
 .action-call-wrapper {
-  background-color: $brand-blue-1;
-  padding: 6rem 2.5rem;
+  position: relative;
+  background: linear-gradient(#fff, #e6f9ff);
+
+  .hero-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 }

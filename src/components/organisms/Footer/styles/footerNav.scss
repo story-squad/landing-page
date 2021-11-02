@@ -27,10 +27,6 @@
       line-height: 2.4rem;
       color: $white;
 
-      &:not(:last-of-type) {
-        margin-bottom: 0.4rem;
-      }
-
       &.hide-on-tablet {
         display: list-item;
       }
