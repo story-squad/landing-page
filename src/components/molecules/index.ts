@@ -6,6 +6,7 @@ export * from './Input';
 export * from './LastTimeText';
 export * from './OldMeetsNewText';
 export * from './OurMissonText';
+export * from './PrivacyPolicy';
 export * from './Products';
 export * from './StreamText';
 export * from './TermsOfService';
