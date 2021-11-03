@@ -12,54 +12,49 @@ export default function PrivacyPolicy(): React.ReactElement {
           language wherever possible. The following terms and definitions are
           provided in order to clarify the policy&apos;s language:
         </p>
-        <h2>Story Squad</h2>
         <p>
-          hereafter also referred to as &quot;us&quot; or &quot;we&quot;, and
-          includes our app{' '}
+          <span>Story Squad -</span> hereafter also referred to as
+          &quot;us&quot; or &quot;we&quot;, and includes our app{' '}
           <span style={{ fontStyle: 'italic' }}>Clash of the Pencils.</span>
         </p>
-        <h2>Users</h2>
         <p>
-          anyone who accesses or uses the Story Squad app or site. Users may
-          further be categorized into two groups, as follows:
+          <span>Users -</span> anyone who accesses or uses the Story Squad app
+          or site. Users may further be categorized into two groups, as follows:
         </p>
-        <h2>User</h2>
         <p>
-          hereafter also referenced as &quot;you&quot; and is at least 13 years
-          of age.
+          <span>User</span> hereafter also referenced as &quot;you&quot; and is
+          at least 13 years of age.
         </p>
-        <h2>Child Under 13</h2>
         <p>
-          the minor or minors, under the age of 13, for whom you are creating a
-          Child Account and to whom the app’s content is appropriate in full
-          compliance with C.O.P.P.A. requiring parental approval upon sign-up.
+          <span>Child Under 13 -</span> the minor or minors, under the age of
+          13, for whom you are creating a Child Account and to whom the app’s
+          content is appropriate in full compliance with C.O.P.P.A. requiring
+          parental approval upon sign-up.
         </p>
-        <h2>Personal Information</h2>
         <p>
-          information that directly or indirectly identifies a user, such as the
-          user&apos;s name, email, or personal identifying details. In addition,
-          anonymous information that is associated with a specific user (or that
-          user&apos;s personal details) is also considered personal information
-          for the purposes of this policy. This information should not be
-          included in any fictional stories submitted onto the app.
+          <span>Personal Information -</span> information that directly or
+          indirectly identifies a user, such as the user&apos;s name, email, or
+          personal identifying details. In addition, anonymous information that
+          is associated with a specific user (or that user&apos;s personal
+          details) is also considered personal information for the purposes of
+          this policy. This information should not be included in any fictional
+          stories submitted onto the app.
         </p>
-        <h2>Anonymous Information</h2>
         <p>
-          information that cannot reasonably be used to identify, directly or
-          indirectly, an individual.
+          <span>Anonymous Information -</span> information that cannot
+          reasonably be used to identify, directly or indirectly, an individual.
         </p>
-        <h2>Aggregate Information</h2>
         <p>
-          information about groups or categories of users that cannot be used to
-          identify an individual user.
+          <span>Aggregate Information - </span> information about groups or
+          categories of users that cannot be used to identify an individual
+          user.
         </p>
-        <h2>C.O.P.P.A.</h2>
         <p>
-          COPPA stands for the Children&apos;s Online Privacy Protection Act, a
-          U.S. federal regulation passed by U.S. Congress in 1998 and enforced
-          by the Federal Trade Commission (FTC). Story Squad LLC operates in
-          full compliance with COPPA. For more information on what the Act
-          entails, please visit the{' '}
+          <span>C.O.P.P.A. - </span> COPPA stands for the Children&apos;s Online
+          Privacy Protection Act, a U.S. federal regulation passed by U.S.
+          Congress in 1998 and enforced by the Federal Trade Commission (FTC).
+          Story Squad LLC operates in full compliance with COPPA. For more
+          information on what the Act entails, please visit the{' '}
           <a
             onClick={() =>
               window.open(
