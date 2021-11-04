@@ -16,7 +16,7 @@
   .items {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
     @include bp($large) {
       width: 70%;
     }

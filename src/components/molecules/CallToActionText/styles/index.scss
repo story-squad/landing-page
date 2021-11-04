@@ -2,10 +2,29 @@
 
 .call-action-content {
   @include safe-zone;
+
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
   text-align: center;
-  gap: 2rem;
+  padding: 6rem 2.5rem;
+  button {
+    padding-bottom: 2rem;
+  }
+  .burst-w-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    p {
+      margin-bottom: 4rem;
+    }
+    .burst {
+      display: none;
+      @include bp($tablet) {
+        display: inline;
+      }
+    }
+  }
 }

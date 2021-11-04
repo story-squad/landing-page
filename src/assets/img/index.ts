@@ -1,4 +1,5 @@
 export { default as brain } from './brain.png';
+export { default as burst } from './burst.svg';
 export * from './Card';
 export { default as clashLogo } from './clash-of-pencils-logo.png';
 export { default as colorPalette } from './color-palette.png';
